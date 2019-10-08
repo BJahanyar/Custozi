@@ -1,0 +1,132 @@
+body{
+			margin: 0px;
+			padding: 0px;
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-size: 17px; 
+		}
+		.main{
+			position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			width: 980px;
+		}
+		
+		.nav1 {
+			position: relative;
+			float: left;
+			width: 110px;
+			padding: 30px 0px;
+			font-size: 25px;
+		}
+		.nav2 {
+			position: relative;
+			float: left;
+			width: 600px;
+			text-align: center;
+		}
+		.navbar ul{
+			list-style: none;
+			padding: 0px;
+			margin: 0px;
+		}
+		.menu>li{
+			display: inline-block;
+		}
+		.nav2 a{
+			text-decoration: none;
+			color: black;
+			display: inline-block;
+			min-width: 90px;
+			padding: 10px 0px;
+			text-align: center;
+		}
+		.nav2 li:hover>a{
+			background:rgba(231,223,223,1.00);		}
+		.nav3 {
+			text-decoration: none;
+			text-align: center;
+			padding: 35px 0px;
+			color:#FFFFFF;
+			background-color:rgba(19,146,38,1.00);
+			width: 143px;
+			float: left;
+			position: relative;
+			
+		}
+		.footerdiv {
+			position: relative;
+			width: 850px;
+			float: left;
+			padding-top: 20px;
+		}
+		.footerdiv  a {
+			color: #878181;
+			text-align: center;
+			padding: 14px 14px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.content{
+			position: relative;
+			float: left;
+			width: 980px;
+			height: 700px;
+			background:rgba(225,225,225,1.00);
+		}
+		.container {
+			padding-top: 15px;
+			padding-left: 80px;
+			padding-right: 80px;
+			padding-bottom: 20px;
+			background-color: white;
+			width: 50%;
+			margin: auto;
+		}
+		.regform{
+			background: green;
+			width: 630px;
+			text-align: center;
+			padding: 10px;
+			margin: 0px;
+			color: white;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		input[type=text], input[type=password] {
+			width: 100%;
+			padding: 10px;
+			margin: 5px 0 22px 0;
+		}
+
+		input[type=text]:focus, input[type=password]:focus {
+			background-color: rgba(240,234,234,1.00);
+		}
+		input[type=textarea] {
+			width: 50%;
+			padding: 8px;
+		}
+		.registersend {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			opacity: 0.9;
+			border: none;
+		}
+
+		.registersend:hover {
+			opacity: 1;
+		}
+		.registercancel {
+			padding: 12px 20px;
+			border: none;
+		}
+
+		.signin{
+			text-align: center;
+			background-color:rgba(217,212,212,1.00);
+			width: 50%;
+			margin: auto;
+			padding: 4px 80px;
+			margin-bottom: 30px;
+		}
